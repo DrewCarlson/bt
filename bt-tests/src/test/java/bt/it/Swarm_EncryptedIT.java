@@ -22,6 +22,7 @@ import bt.it.fixture.Swarm;
 import bt.protocol.crypto.EncryptionPolicy;
 import bt.runtime.BtClient;
 import bt.runtime.Config;
+import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 
@@ -30,6 +31,7 @@ import java.time.Duration;
 
 import static org.junit.Assert.assertEquals;
 
+@Ignore
 public class Swarm_EncryptedIT extends BaseBtTest {
 
     private static final int NUMBER_OF_SEEDERS = 5;
