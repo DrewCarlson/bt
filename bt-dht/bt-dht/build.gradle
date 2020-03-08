@@ -1,0 +1,10 @@
+dependencies {
+    implementation project(':bt-core')
+    implementation project(':bt-bencoding')
+    implementation 'org.slf4j:slf4j-api:1.7.25'
+    implementation 'com.google.inject:guice:4.1.0'
+    implementation 'com.github.the8472:mldht:9450e1a91a'
+    testImplementation project(':bt-tests')
+}
+
+description = 'Bt libmldht adapter'

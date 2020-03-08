@@ -1,0 +1,13 @@
+rootProject.name = 'bt-parent'
+include(':bt-bencoding')
+include(':bt-core')
+include(':bt-http-tracker-client')
+include(':bt-dht-parent:bt-dht')
+include(':bt-dht-parent')
+include(':bt-upnp')
+include(':bt-tests')
+include(':bt-cli')
+include(':examples')
+include(':jacoco-report')
+project(':bt-dht-parent:bt-dht').projectDir = file('bt-dht/bt-dht')
+project(':bt-dht-parent').projectDir = file('bt-dht')
